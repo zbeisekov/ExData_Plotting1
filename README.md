@@ -109,19 +109,19 @@ Generating PNG files is straightforward.
 
 ```r
 plot.tofile <- function(epc) {
-    png("plots/plot1.PNG")
+    png("plots/plot1.png")
     plot.plot1(epc)
     dev.off()
     
-    png("plots/plot2.PNG")
+    png("plots/plot2.png")
     plot.plot2(epc)
     dev.off()
     
-    png("plots/plot3.PNG")
+    png("plots/plot3.png")
     plot.plot3(epc)
     dev.off()
     
-    png("plots/plot4.PNG")
+    png("plots/plot4.png")
     plot.plot4(epc)
     dev.off()
 }
