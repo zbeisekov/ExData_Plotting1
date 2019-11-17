@@ -1,4 +1,6 @@
 library(data.table)
+library(lubridate)
+library(dplyr)
 
 read.epc <- function() {
     # We are using fread function from data.table library, because it is efficient for
@@ -17,5 +19,7 @@ read.epc <- function() {
                         "Global_intensity", "Sub_metering_1",
                         "Sub_metering_2", "Sub_metering_3"),
           na.strings = "?")
+    epc <- epc %>% mutate(Timestamp = dmy_hms(paste(Date, Time, sep = " ")))
+    
     return(epc)
 }
