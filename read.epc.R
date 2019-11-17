@@ -19,6 +19,10 @@ read.epc <- function() {
                         "Global_intensity", "Sub_metering_1",
                         "Sub_metering_2", "Sub_metering_3"),
           na.strings = "?")
+    
+    # We need to have a separate column for the timestamp.
+    # We could dump the Date and Time, but keep it if we need in the future.
+    
     epc <- epc %>% mutate(Timestamp = dmy_hms(paste(Date, Time, sep = " ")))
     
     return(epc)
