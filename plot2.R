@@ -1,5 +1,3 @@
-library(lubridate)
-
 plot.plot2 <- function(epc) {
     png("plot2.png")
     with(epc, plot(Timestamp, Global_active_power, type = "n",
