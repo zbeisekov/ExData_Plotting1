@@ -9,5 +9,4 @@ plot.plot4 <- function(epc) {
     
     with(epc, plot(Timestamp, Global_reactive_power, xlab = "datetime", type = "n"))
     with(epc, lines(Timestamp, Global_reactive_power))
-    
 }
