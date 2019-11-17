@@ -36,10 +36,12 @@ plot.plot1 <- function(epc) {
 }
 ```
 Generated:
+
 ![plot1](plots/plot1.png) 
 
 
 Original for the reference:
+
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 
@@ -53,9 +55,11 @@ plot.plot2 <- function(epc) {
 ```
 
 Generated:
+
 ![plot2](plots/plot2.png) 
 
 Original for the reference:
+
 ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
 
 
@@ -75,9 +79,11 @@ plot.plot3 <- function(epc) {
 ```
 
 Generated:
+
 ![plot3](plots/plot3.png) 
 
 Original for the reference:
+
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
 
 
@@ -99,9 +105,11 @@ plot.plot4 <- function(epc) {
 }
 ```
 Generated:
+
 ![plot4](plots/plot4.png) 
 
 Original for the reference:
+
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
 ### Generating PNG files
