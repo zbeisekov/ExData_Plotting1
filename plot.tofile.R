@@ -4,19 +4,19 @@ source("plot3.R")
 source("plot4.R")
 
 plot.tofile <- function(epc) {
-    png("plot1.PNG")
+    png("plots/plot1.PNG")
     plot.plot1(epc)
     dev.off()
     
-    png("plot2.PNG")
+    png("plots/plot2.PNG")
     plot.plot2(epc)
     dev.off()
     
-    png("plot3.PNG")
+    png("plots/plot3.PNG")
     plot.plot3(epc)
     dev.off()
     
-    png("plot4.PNG")
+    png("plots/plot4.PNG")
     plot.plot4(epc)
     dev.off()
 }
